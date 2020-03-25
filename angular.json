@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "agtech": {
@@ -29,7 +29,7 @@
             ],
             "styles": [
               "src/styles.scss"
-            ],
+           ],
             "scripts": []
           },
           "configurations": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "agtech"
+    }
+  },
+  "defaultProject": "agtech",
+  "cli": {
+    "analytics": "fd9e59de-6ca0-403f-bef8-d80ce8fdf9e3"
+  }
 }
